@@ -63,7 +63,7 @@ while True:
                     print("Organizing folders...")
 
                     # Continues sorting files until no more files are in the directory
-                    while num_files <= 0:
+                    while num_files == 0:
                         for folder in os.listdir(dir):
                             for t in IMAGES:
                                 if folder == t:
