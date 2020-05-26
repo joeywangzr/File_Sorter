@@ -2,7 +2,7 @@
 import os, shutil
 
 # Change working directory to user choice
-dir = input('Please input a directory name: ')
+dir = input('Please input the name of the directory you would like to sort: ')
 os.chdir(dir)
 
 print('Sorting files...')
